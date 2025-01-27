@@ -1,5 +1,5 @@
 package src.ex12;
 
-public interface AbstractImageFilter {
+public interface Processable {
 	abstract public void process(GrayImage img);
 }

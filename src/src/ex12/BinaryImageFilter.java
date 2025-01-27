@@ -1,9 +1,6 @@
 package src.ex12;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
-public class BinaryImageFilter implements AbstractImageFilter {
+public class BinaryImageFilter implements Processable {
 
 	@Override
 	public void process(GrayImage img) {

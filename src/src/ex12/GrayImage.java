@@ -25,7 +25,7 @@ public class GrayImage extends BufferedImage{
 	  return;
   }
   
-  public void applyFilter(AbstractImageFilter f) {
+  public void applyFilter(Processable f) {
 	  f.process(this);
   }
   
